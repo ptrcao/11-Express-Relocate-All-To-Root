@@ -4,7 +4,6 @@ const router = express.Router();
 const fs = require("fs");
 const path = require("path");
 
-
 router.get("/", (req, res) => {
   fs.readFile("db/db.json", "utf-8", (err, data) => {
     // console.log(data);
@@ -14,10 +13,9 @@ router.get("/", (req, res) => {
   });
 });
 
-
 // Required for app.post('/api/notes', ...) routes
-const uuid = require('uuid');
-router.use(express.json())
+const uuid = require("uuid");
+router.use(express.json());
 
 router.post("/", (req, res) => {
   console.log("req is: " + JSON.stringify(req.body));
@@ -44,7 +42,7 @@ router.delete("/:id", (req, res) => {
     if (err) throw err;
     const notes = JSON.parse(data);
     const updatedNotes = notes.filter((note) => note.id !== req.params.id);
-    console.log(updatedNotes)
+    console.log(updatedNotes);
     fs.writeFile("db/db.json", JSON.stringify(updatedNotes), (err) => {
       if (err) throw err;
       res.json(updatedNotes);
@@ -52,5 +50,4 @@ router.delete("/:id", (req, res) => {
   });
 });
 
-
-module.exports = router
+module.exports = router;
