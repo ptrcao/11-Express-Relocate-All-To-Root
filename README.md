@@ -20,7 +20,10 @@ This application uses the Express.js framework to create a REST API that allows 
 - `DELETE /notes/:id` deletes a note from the list of notes stored in the `db.json` file. The ID of the note to delete is passed in the URL as a path parameter.
 
 ## Usage Notes
-Sometimes the delete button can have a delayed action, but it has been tested and does work as recorded in the GIF demo below.  The user needs to click on the icon precisely and specifically, as missing the icon marginally on click can fail to see a response.  A future improvement could make the trash icon more foolproof and UI-friendly, but in this project, as is, the developer was only responsible for the backend.
+- The user can add notes using the + icon on the top right corner
+- When both a note title and text has been entered, the save button becomes available on the top right corner
+- When the user clicks on an existing note title on the left pane, the app will display the full text of the note on the right pane
+- Sometimes the delete button can have a delayed action, but it has been tested and does work as recorded in the GIF demo below.  The user needs to click on the icon precisely and specifically, as missing the icon marginally on click can fail to see a response.  A future improvement could make the trash icon more foolproof and UI- and accessible-friendly, but in this project, as is, the developer was only responsible for the backend.
 
 ## Screenshot
 
