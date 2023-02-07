@@ -6,7 +6,7 @@
 
 > Live deployed URL: 
 - Landing page: https://noketaker.herokuapp.com/
-- Main page: https://noketaker.herokuapp.com/notes
+- Notes/interactive page: https://noketaker.herokuapp.com/notes
 
 > Repository URL: https://github.com/ptrcao/11-Express-Relocate-All-To-Root.git
 
