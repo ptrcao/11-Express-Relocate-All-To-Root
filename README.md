@@ -6,7 +6,7 @@
 
 > Live deployed URL: https://noketaker.herokuapp.com/notes
 
-> Repository URL: https://api.github.com/repos/ptrcao/11-Express-02-Challenge
+> Repository URL: https://github.com/ptrcao/11-Express-Relocate-All-To-Root.git
 
 ## Table of Contents
 
