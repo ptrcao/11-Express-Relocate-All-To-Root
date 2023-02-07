@@ -14,7 +14,9 @@ const path = require("path");
 // import 'bootstrap/dist/css/bootstrap.css';
 const app = express();
 
-const PORT = 3001;
+
+
+const PORT = process.env.PORT || 80
 
 // EJS (alternatively use Pug for dynamic HTML)
 // https://www.youtube.com/watch?v=yXEesONd_54
