@@ -5,8 +5,8 @@
   ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 > Live deployed URL: 
-- Landing page: https://noketaker.herokuapp.com/
-- Notes/interactive page: https://noketaker.herokuapp.com/notes
+> - Landing page: https://noketaker.herokuapp.com/
+> - Notes/interactive page: https://noketaker.herokuapp.com/notes
 
 > Repository URL: https://github.com/ptrcao/11-Express-Relocate-All-To-Root.git
 
