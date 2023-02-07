@@ -13,6 +13,9 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
+- [Useage Notes](#usage-notes)
+- [Screenshot](#screenshot)
+- [Credits](#credits)
 
 ## Project Description
 This application uses the Express.js framework to create a REST API that allows clients to perform CRUD (create, read, update, delete) operations on notes stored in a JSON file. The API has three endpoints:
